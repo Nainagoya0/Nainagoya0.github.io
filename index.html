@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- header -->
+    <ul id="top-nav">
+        <li class="top-nav-logo">
+            <img src="./images/logo.jpg" alt="logo" id="logo" />
+            <img src="./images/menu.png" alt="logo" id="menu" />
+        </li>
+        <li>
+            <ul id="links">
+                <li class="top-nav-link">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="top-nav-link">
+                    <a href="./html/product_catalog.html">Product/Catalog</a>
+                </li>
+                <li class="top-nav-link">
+                    <a href="./html/how_it_works.html">How it Works</a>
+                </li>
+
+                <li class="top-nav-link">
+                    <a href="./html/feedback_blog.html">Blog</a>
+                </li>
+
+                <li class="top-nav-link">
+                    <a href="./html/about_us.html">About Us</a>
+                </li>
+
+                <li class="top-nav-link">
+                    <a href="./html/contact_page.html">Contact</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul id="auth-buttons">
+                <li class="top-nav-link register">
+                    <a href="">Register</a>
+                </li>
+
+                <li class="top-nav-link login">
+                    <a href="" style="color: aliceblue;">Login</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- end of header -->
+
+    <!-- page body content -->
+    <div>
+        <div class="home-page-top-content">
+
+            <div class="first-part">
+                <p id="ln-1">
+                    Neque porro quisquam est qui dolorem ipsum quia
+                </p>
+
+                <p id="ln-2">
+                    Lorem Ipsum Neque
+                    porro qui dolorem
+                </p>
+
+                <p id="ln-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+
+                <div class="buttons">
+
+                    <p class="book-now">
+                        Booking Now
+                    </p>
+
+                    <p class="see-all-cars">
+                        <a href="#all-cars">See all cars</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="car-image">
+                <img src="./images/car_rent.jpg" alt="car" id="display_car_book" />
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- floating filter search-->
+    <div class="floating-search">
+        <div>
+            <input type="radio" id="pick-up" name="pick-up" value="Pick-up" /> Pick-up
+            <div class="pick-up">
+                <div>
+                    <p class="h-title">Location</p>
+                    <div class="sel Location" id="p-location">
+                        <span id="city-pick-up">Select your city </span> <img src="./images/dropdown.png" alt="arrow" />
+                    </div>
+
+                </div>
+                <div>
+                    <p class="h-title">Date</p>
+                    <div class="sel Date" id="p-date">
+                        <span id="date-pick-up">Select your date </span> <img src="./images/dropdown.png" alt="arrow" />
+                    </div>
+                </div>
+                <div>
+                    <p class="h-title">Time</p>
+                    <div class="sel Time" id="p-time">
+                        <span id="time-pick-up">Select your time </span> <img src="./images/dropdown.png" alt="arrow" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <input type="radio" id="drop-off" name="drop-off" value="Drop-off" /> Drop Off
+            <div class="drop-off">
+                <div>
+                    <p class="h-title">Location</p>
+                    <div class="sel Location" id="d-location">
+                        <span id="city-drop-off">Select your city </span> <img src="./images/dropdown.png"
+                            alt="arrow" />
+                    </div>
+                </div>
+                <div>
+                    <p class="h-title">Date</p>
+                    <div class="sel Date" id="d-date">
+                        <span id="date-drop-off">Select your date </span> <img src="./images/dropdown.png"
+                            alt="arrow" />
+                    </div>
+                </div>
+                <div>
+                    <p class="h-title">Time</p>
+                    <div class="sel Time" id="d-time">
+                        <span id="time-drop-off">Select your time </span> <img src="./images/dropdown.png"
+                            alt="arrow" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="search" id="search_book_car">
+            Search
+        </p>
+
+    </div>
+
+    <div class="drop-downs">
+        <div class="pick-up-dropdowns">
+            <div id="p_city" class="dropdown-content">
+                <p>New York</p>
+                <p>Los Angeles</p>
+                <p>Dallas</p>
+            </div>
+            <div id="p_date" class="dropdown-content">
+                <p>12th Feb</p>
+                <p>13th Feb</p>
+                <p>14th Feb</p>
+            </div>
+            <div id="p_time" class="dropdown-content">
+                <p>1:00pm</p>
+                <p>2:00pm</p>
+                <p>3:00pm</p>
+            </div>
+        </div>
+
+        <div class="drop-off-dropdowns">
+            <div id="d_city" class="dropdown-content">
+                <p>Chicago</p>
+                <p>Austin</p>
+                <p>Houston</p>
+            </div>
+            <div id="d_date" class="dropdown-content">
+                <p>15th Feb</p>
+                <p>16th Feb</p>
+                <p>17th Feb</p>
+            </div>
+            <div id="d_time" class="dropdown-content">
+                <p>10:00pm</p>
+                <p>11:00pm</p>
+                <p>12:00pm</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- middle page -->
+    <div class="middle-page-content">
+        <p id="context-txt-1">Lorem Ipsum passage</p>
+        <p id="context-txt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et</p>
+
+        <div class="how-it-works-page-content">
+            <div class="section one">
+                <img src="./images/location.png" alt="location" />
+                <p><b>Choose Location</b></p>
+                <p class="context-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </p>
+            </div>
+
+            <div class="section two">
+                <img src="./images/calendar.png" alt="calendar" />
+                <p><b>Pick-up Date</b></p>
+                <p class="context-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </p>
+            </div>
+
+            <div class="section three">
+                <img src="./images/car.png" alt="car" />
+                <p><b>Book your car</b></p>
+                <p class="context-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- third part -->
+    <div class="third-part">
+        <p id="p1">
+            Lorem ipsum dolor sit amet
+        </p>
+
+        <p id="p2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et
+        </p>
+
+    </div>
+
+    <!-- car tabs -->
+    <div class="car-tabs" id="all-cars">
+
+        <div class="tab popular">
+            <p id="name-one" class="name">Popular</p>
+            <hr class="tab_indicator indicator-one" id="indicator-one">
+        </div>
+
+        <div class="tab large-car">
+            <p id="name-two" class="name">Large Car</p>
+            <hr class="tab_indicator indicator-two" id="indicator-two">
+        </div>
+
+        <div class="tab small-car">
+            <p id="name-three" class="name">Small Car</p>
+            <hr class="tab_indicator indicator-three" id="indicator-three">
+        </div>
+
+        <div class="tab exclusive-car">
+            <p id="name-four" class="name">Exclusive Car</p>
+            <hr class="tab_indicator indicator-four" id="indicator-four">
+        </div>
+
+    </div>
+    <hr id="tab-separator">
+
+    <div class="car-row-one">
+        <div class="row-one-first-two">
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_1.jpg" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_2.jpg" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-one-second-two">
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_3.jpg" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_4.jpg" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-row-two">
+        <div class="row-two-first-two">
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_5.jpeg" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_6.webp" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-two-second-two">
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_7.webp" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="top-nav">
+                    <p class="name">All New Rush</p>
+                    <img class="love" src="./images/love.png" alt="like" />
+                </div>
+
+                <img class="car-class" src="./images/car_8.avif" alt="car" />
+
+                <div class="btn-nav">
+                    <p class="price">
+                        $72/day
+                    </p>
+                    <p class="rent">Rent now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="car-count">
+        <p class="more">Show more cars</p>
+        <p>120 cars</p>
+    </div>
+
+    <div class="fourth-part">
+
+        <p id="fourth-part-title">Lorem ipsum dolor sit</p>
+
+        <p id="fourth-part-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore e</p>
+
+        <div class="more-info">
+            <img src="./images/male.png" alt="support" />
+
+            <div class="details">
+
+                <div class="detail">
+
+                    <img src="./images/phone.png" alt="phone" />
+                    <div>
+                        <p class="title">Customer Support</p>
+                        <p>
+                            Aliquam erat volutpat. Integer malesuada turpis id fringilla
+                            suscipit. Maecenas ultrices.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="detail">
+
+                    <img src="./images/price.png" alt="phone" />
+                    <div>
+                        <p class="title">Best Price Guarantted</p>
+                        <p>
+                            Aliquam erat volutpat. Integer malesuada turpis id fringilla
+                            suscipit. Maecenas ultrices.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="detail">
+
+                    <img src="./images/location.png" alt="location" />
+                    <div>
+                        <p class="title">ManyLocation</p>
+                        <p>
+                            Aliquam erat volutpat. Integer malesuada turpis id fringilla
+                            suscipit. Maecenas ultrices.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews-content">
+
+        <p id="blog-title">
+            Trusted By Thousands of <br />Happy Customers
+        </p>
+
+        <p id="blog-txt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        </p>
+
+        <div class="reviews">
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">James Barrel</p>
+                        <p class="location">Michigan, USA</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">William Snow</p>
+                        <p class="location">Texas, USA</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">James Boston</p>
+                        <p class="location">Kingston, Jamaica</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">Joel Bosnia</p>
+                        <p class="location">Texas, USA</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">Mary Younda</p>
+                        <p class="location">London, UK</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">Wilfred Martin</p>
+                        <p class="location">Kingston, Jamaica</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">George Carlin</p>
+                        <p class="location">SilverSpring, Maryland</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">Winston Churchil</p>
+                        <p class="location">London, Britain</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+            <div class="review">
+                <div class="review-top-bar">
+                    <img src="./images/male.png" alt="male user" />
+
+                    <div class="name-location">
+                        <p class="name">Simpson Oesteen</p>
+                        <p class="location">Kingston, Jamaica</p>
+                    </div>
+
+                    <p class="rating">
+                        4.5
+                    </p>
+                </div>
+
+                <p class="review-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+            </div>
+
+        </div>
+
+        <div class="controls">
+            <ul>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+
+            <div class="arrows">
+
+                <img src="./images/back.png" alt="back-arrow" id="back-arrow" />
+
+
+                <img src="./images/forward.png" alt="forward-arrow" id="forth-arrow" />
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div id="upper-section">
+
+            <div class="first-two">
+
+                <div class="first-section">
+
+                    <!-- newsletter subscription -->
+                    <p id="news-letter-sub-title">Sign up for our newsletter</p>
+
+                    <p id="news-letter-sub-text">Be the first to know about our special offers, news, and updates.</p>
+
+                    <form action="">
+                        <input type="text" placeholder="Email Address" name="email" id="subscribe" />
+                    </form>
+
+                    <img src="./images/logo.jpg" alt="logo">
+                    <p>
+                        Our vision is to provide convinience and help increase your sales business
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="./images/facebook.png" alt="facebook" />
+                        </a>
+                        <a href="#">
+                            <img src="./images/twitter.jpg" alt="twitter" />
+                        </a>
+                        <a href="#">
+
+                            <img src="./images/instagram.png" alt="instagram" />
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="second-section form-displace">
+                    <p><b>About</b></p>
+                    <p>
+                        <a href="./html/how_it_works.html">How it works</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Featured</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Careers</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Business Relation</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="second-two">
+
+                <div class="third-section form-displace">
+                    <p><b>Community</b></p>
+                    <p>
+                        <a href="#">Events</a>
+                    </p>
+
+                    <p>
+                        <a href="./html/feedback_blog.html">Blog</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Podcast</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Invite a Friend</a>
+                    </p>
+                </div>
+
+                <div class="fourth-section form-displace">
+                    <p><b>Socials</b></p>
+                    <p>
+                        <a href="#">Discord</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Instagram</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Twitter</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="lower-section">
+            <p>
+                &copy; 2022Rent-a-Ride.All rights reserved
+            </p>
+            <p>
+                <a href="#">Privancy & Policy</a>
+            </p>
+            <p>
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div>
+    </div>
+    <!-- end of footer -->
+
+    <!--javascript-->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
