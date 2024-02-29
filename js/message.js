@@ -12,12 +12,11 @@ const firebaseConfig = {
 //Initializing Firebase
 const app = firebase.initializeApp(firebaseConfig);
 
-//Db reference
+//Database reference
 const db = firebase.database().ref("contactForm");
 
 const contactForm = document.getElementById("contactForm");
 contactForm.addEventListener("submit", submitForm);
-
 
 function submitForm(event){
     event.preventDefault();
